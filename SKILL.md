@@ -23,9 +23,9 @@ allowed-tools:
 
 # Killer UI
 
-**Stop shipping ugly.** Killer UI is a skill set that gives AI coding agents
-the eye of an Apple Principal Designer, the rigor of a Pentagram Creative
-Director, and the pragmatism of a Vercel Design Engineer.
+**Your AI's design degree.** Killer UI is a Claude Code skill set that gives
+your coding agent the eye of an Apple Principal Designer, the rigor of a
+Pentagram Creative Director, and the pragmatism of a Vercel Design Engineer.
 
 Most vibe-coded apps work fine but look like nobody cared. Random spacing,
 clashing colors, broken dark mode, no visual hierarchy. Killer UI fixes that

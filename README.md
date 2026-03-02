@@ -1,6 +1,6 @@
 # Killer UI
 
-**Stop shipping ugly.** A Claude Code skill set that turns vibe-coded UIs into production-grade, Apple-quality interfaces.
+**Your AI's design degree.** A Claude Code skill set that turns vibe-coded UIs into production-grade, Apple-quality interfaces.
 
 Most vibe-coded apps work fine but look like nobody cared. Random spacing, clashing colors, broken dark mode, no visual hierarchy. Killer UI fixes that by encoding real design expertise into repeatable, auditable workflows.
 
