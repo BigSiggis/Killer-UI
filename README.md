@@ -1,30 +1,26 @@
-# Killer UI
+<p align="center">
+  <img src="assets/banner.svg" alt="Killer UI" width="100%"/>
+</p>
 
 **Your AI's design degree.** A Claude Code skill set that turns vibe-coded UIs into production-grade, Apple-quality interfaces.
 
 Most vibe-coded apps work fine but look like nobody cared. Random spacing, clashing colors, broken dark mode, no visual hierarchy. Killer UI fixes that by encoding real design expertise into repeatable, auditable workflows.
 
-## What You Get
+---
 
-| Command | What It Does |
-|---------|-------------|
-| `/KUI:review` | Full design critique — find every design sin in your codebase |
-| `/KUI:system` | Create a complete design system (palette, typography, spacing, components, tokens) |
-| `/KUI:brand` | Develop a brand identity (strategy, visual system, guidelines) |
-| `/KUI:screen` | Design screens with proper hierarchy, states, and interactions |
-| `/KUI:a11y` | WCAG 2.2 AA accessibility audit with remediation plan |
-| `/KUI:code` | Convert designs into production-ready, accessible frontend code |
-| `/KUI:figma` | Generate Figma-ready specs (auto-layout, components, variants, tokens) |
-| `/KUI:trends` | Research current design trends for any industry |
-| `/KUI:darkmode` | Audit and fix dark mode — contrast, inverted colors, hardcoded values |
+## Commands
+
+<p align="center">
+  <img src="assets/commands.svg" alt="Killer UI Commands" width="100%"/>
+</p>
 
 ## Quick Start
 
 ### Install
 
 ```bash
-git clone https://github.com/BigSiggis/killer-ui.git
-cd killer-ui
+git clone https://github.com/BigSiggis/Killer-UI.git
+cd Killer-UI
 chmod +x install.sh
 ./install.sh /path/to/your/project
 ```
@@ -41,22 +37,13 @@ Open Claude Code in your project and run:
 
 That's it. It'll tear your UI apart and tell you exactly what to fix.
 
-## Recommended Pipeline
+---
 
-```
-/KUI:review    →  Find what's broken
-/KUI:system    →  Build a design system
-/KUI:screen    →  Design screens properly
-/KUI:code      →  Ship it
-```
+## Pipeline
 
-Supporting commands you can run anytime:
-
-- `/KUI:a11y` — Accessibility audit
-- `/KUI:brand` — Brand identity
-- `/KUI:figma` — Figma specs
-- `/KUI:darkmode` — Dark mode fixes
-- `/KUI:trends` — Trend research
+<p align="center">
+  <img src="assets/pipeline.svg" alt="Killer UI Pipeline" width="100%"/>
+</p>
 
 ## What's Inside
 

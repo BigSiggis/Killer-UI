@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D0D0D"/>
+      <stop offset="100%" stop-color="#1A1A2E"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#1E1E2A"/>
+      <stop offset="100%" stop-color="#16161F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" fill="url(#bg)"/>
+
+  <!-- Section title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="2.5" fill="#F59E0B" opacity="0.8">COMMANDS</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="-1" fill="#FFFFFF">9 Skills. One Toolkit.</text>
+
+  <!-- Row 1: 5 cards -->
+  <!-- Card 1: review -->
+  <g transform="translate(42, 110)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#EF4444" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">🔍</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#EF4444">/KUI:review</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Full design critique.</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Find every design sin</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">in your codebase.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#EF4444" opacity="0.3"/>
+  </g>
+
+  <!-- Card 2: system -->
+  <g transform="translate(272, 110)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#F59E0B" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">🎨</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#F59E0B">/KUI:system</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Create a full design</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">system. Palette, type,</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">spacing, tokens.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  </g>
+
+  <!-- Card 3: brand -->
+  <g transform="translate(502, 110)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#8B5CF6" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">💎</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#8B5CF6">/KUI:brand</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Build a brand identity.</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Strategy, visuals,</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">voice, guidelines.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#8B5CF6" opacity="0.3"/>
+  </g>
+
+  <!-- Card 4: screen -->
+  <g transform="translate(732, 110)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#3B82F6" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">📱</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#3B82F6">/KUI:screen</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Design screens with</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">hierarchy, states, and</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">native patterns.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#3B82F6" opacity="0.3"/>
+  </g>
+
+  <!-- Card 5: code -->
+  <g transform="translate(962, 110)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#22C55E" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">⚡</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#22C55E">/KUI:code</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Design to production</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">code. Themed, accessible,</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">dark mode ready.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#22C55E" opacity="0.3"/>
+  </g>
+
+  <!-- Row 2: 4 cards, centered -->
+  <!-- Card 6: a11y -->
+  <g transform="translate(157, 300)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#22C55E" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">♿</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#22C55E">/KUI:a11y</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">WCAG 2.2 AA audit.</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Contrast, touch targets,</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">screen readers.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#22C55E" opacity="0.3"/>
+  </g>
+
+  <!-- Card 7: darkmode -->
+  <g transform="translate(387, 300)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#8B5CF6" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">🌙</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#8B5CF6">/KUI:darkmode</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Find and fix every</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">dark mode bug. Contrast,</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">inversions, hardcodes.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#8B5CF6" opacity="0.3"/>
+  </g>
+
+  <!-- Card 8: figma -->
+  <g transform="translate(617, 300)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#EC4899" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">🖼</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#EC4899">/KUI:figma</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Generate Figma specs.</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Auto-layout, variants,</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">tokens, prototypes.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#EC4899" opacity="0.3"/>
+  </g>
+
+  <!-- Card 9: trends -->
+  <g transform="translate(847, 300)">
+    <rect width="210" height="170" rx="12" fill="#1A1A24" stroke="#2A2A3A" stroke-width="1"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#06B6D4" fill-opacity="0.12"/>
+    <text x="34" y="42" text-anchor="middle" font-size="18">📊</text>
+    <text x="16" y="76" font-family="ui-monospace, 'SF Mono', monospace" font-size="13" font-weight="700" fill="#06B6D4">/KUI:trends</text>
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Research design trends</text>
+    <text x="16" y="114" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">for any industry.</text>
+    <text x="16" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#A1A1AA">Competitive analysis.</text>
+    <rect x="16" y="148" width="50" height="6" rx="3" fill="#06B6D4" opacity="0.3"/>
+  </g>
+</svg>
