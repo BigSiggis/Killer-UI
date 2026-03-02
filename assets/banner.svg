@@ -1,133 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0D0D0D"/>
-      <stop offset="100%" stop-color="#1A1A2E"/>
+    <linearGradient id="subtleGrad" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8F7F5"/>
+      <stop offset="100%" stop-color="#F0EDE8"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#F59E0B"/>
-      <stop offset="100%" stop-color="#EF4444"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="textGlow">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="subtleGlow">
-      <feGaussianBlur stdDeviation="20" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#subtleGrad)"/>
 
-  <!-- Grid pattern -->
-  <g opacity="0.04" stroke="#FFFFFF" stroke-width="0.5">
-    <line x1="0" y1="50" x2="1200" y2="50"/>
-    <line x1="0" y1="100" x2="1200" y2="100"/>
-    <line x1="0" y1="150" x2="1200" y2="150"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="250" x2="1200" y2="250"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-    <line x1="0" y1="350" x2="1200" y2="350"/>
-    <line x1="100" y1="0" x2="100" y2="400"/>
-    <line x1="200" y1="0" x2="200" y2="400"/>
-    <line x1="300" y1="0" x2="300" y2="400"/>
-    <line x1="400" y1="0" x2="400" y2="400"/>
-    <line x1="500" y1="0" x2="500" y2="400"/>
-    <line x1="600" y1="0" x2="600" y2="400"/>
-    <line x1="700" y1="0" x2="700" y2="400"/>
-    <line x1="800" y1="0" x2="800" y2="400"/>
-    <line x1="900" y1="0" x2="900" y2="400"/>
-    <line x1="1000" y1="0" x2="1000" y2="400"/>
-    <line x1="1100" y1="0" x2="1100" y2="400"/>
+  <!-- Top border accent -->
+  <rect x="0" y="0" width="1200" height="3" fill="#1A1916"/>
+
+  <!-- Grid dots pattern - subtle -->
+  <g opacity="0.06">
+    <circle cx="100" cy="60" r="1.5" fill="#1A1916"/>
+    <circle cx="140" cy="60" r="1.5" fill="#1A1916"/>
+    <circle cx="180" cy="60" r="1.5" fill="#1A1916"/>
+    <circle cx="100" cy="100" r="1.5" fill="#1A1916"/>
+    <circle cx="140" cy="100" r="1.5" fill="#1A1916"/>
+    <circle cx="180" cy="100" r="1.5" fill="#1A1916"/>
+    <circle cx="100" cy="140" r="1.5" fill="#1A1916"/>
+    <circle cx="140" cy="140" r="1.5" fill="#1A1916"/>
+    <circle cx="180" cy="140" r="1.5" fill="#1A1916"/>
+    <circle cx="1020" cy="220" r="1.5" fill="#1A1916"/>
+    <circle cx="1060" cy="220" r="1.5" fill="#1A1916"/>
+    <circle cx="1100" cy="220" r="1.5" fill="#1A1916"/>
+    <circle cx="1020" cy="260" r="1.5" fill="#1A1916"/>
+    <circle cx="1060" cy="260" r="1.5" fill="#1A1916"/>
+    <circle cx="1100" cy="260" r="1.5" fill="#1A1916"/>
+    <circle cx="1020" cy="300" r="1.5" fill="#1A1916"/>
+    <circle cx="1060" cy="300" r="1.5" fill="#1A1916"/>
+    <circle cx="1100" cy="300" r="1.5" fill="#1A1916"/>
   </g>
 
-  <!-- Ambient glow -->
-  <ellipse cx="600" cy="180" rx="400" ry="200" fill="url(#glow)"/>
-
-  <!-- Decorative corner elements -->
-  <g opacity="0.08">
-    <rect x="40" y="40" width="24" height="24" rx="4" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
-    <rect x="1136" y="40" width="24" height="24" rx="4" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
-    <rect x="40" y="336" width="24" height="24" rx="4" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
-    <rect x="1136" y="336" width="24" height="24" rx="4" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
-  </g>
-
-  <!-- Accent line top -->
-  <rect x="400" y="0" width="400" height="3" rx="1.5" fill="url(#accent)" opacity="0.6"/>
-
-  <!-- Icon cluster - design tools -->
-  <g transform="translate(600, 120)" filter="url(#subtleGlow)">
-    <!-- Pen tool -->
-    <g transform="translate(-80, -20)" opacity="0.25">
-      <path d="M0 28L14 0L28 28L14 22Z" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
-    </g>
-    <!-- Grid/layout -->
-    <g transform="translate(55, -25)" opacity="0.2">
-      <rect x="0" y="0" width="12" height="12" rx="2" stroke="#EF4444" stroke-width="1.2" fill="none"/>
-      <rect x="16" y="0" width="12" height="12" rx="2" stroke="#EF4444" stroke-width="1.2" fill="none"/>
-      <rect x="0" y="16" width="12" height="12" rx="2" stroke="#EF4444" stroke-width="1.2" fill="none"/>
-      <rect x="16" y="16" width="12" height="12" rx="2" stroke="#EF4444" stroke-width="1.2" fill="none"/>
-    </g>
-    <!-- Color swatch -->
-    <g transform="translate(-110, 5)" opacity="0.15">
-      <circle cx="10" cy="10" r="8" stroke="#8B5CF6" stroke-width="1.2" fill="none"/>
-      <circle cx="22" cy="10" r="8" stroke="#3B82F6" stroke-width="1.2" fill="none"/>
-    </g>
-  </g>
+  <!-- Eyebrow pill -->
+  <rect x="80" y="60" width="148" height="26" rx="13" fill="rgba(26,25,22,0.04)" stroke="rgba(26,25,22,0.10)" stroke-width="1"/>
+  <text x="154" y="78" text-anchor="middle" font-family="'DM Sans', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="rgba(26,25,22,0.45)">Claude Code Skill Set</text>
 
   <!-- Title -->
-  <text x="600" y="175" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="72" font-weight="900" letter-spacing="-3" fill="#FFFFFF" filter="url(#textGlow)">KILLER UI</text>
-
-  <!-- Accent underline -->
-  <rect x="480" y="195" width="240" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="80" y="148" font-family="'DM Sans', system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" letter-spacing="-3" fill="#1A1916">Killer UI</text>
 
   <!-- Tagline -->
-  <text x="600" y="235" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="400" letter-spacing="0.5" fill="#A1A1AA">Your AI's design degree</text>
+  <text x="84" y="185" font-family="'DM Sans', system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(26,25,22,0.45)">Your AI's design degree.</text>
 
   <!-- Description -->
-  <text x="600" y="270" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="400" fill="#71717A">A Claude Code skill set for building Apple-quality interfaces</text>
+  <text x="84" y="225" font-family="'DM Sans', system-ui, -apple-system, sans-serif" font-size="15" font-weight="400" fill="rgba(26,25,22,0.35)" line-height="1.7">
+    <tspan x="84" dy="0">Turn vibe-coded UIs into production-grade,</tspan>
+    <tspan x="84" dy="24">Apple-quality interfaces. Design systems, accessibility,</tspan>
+    <tspan x="84" dy="24">dark mode, typography — all from the command line.</tspan>
+  </text>
 
-  <!-- Pill badges -->
-  <g transform="translate(600, 310)">
-    <!-- Design Systems -->
-    <g transform="translate(-280, 0)">
-      <rect x="0" y="0" width="115" height="28" rx="14" fill="#F59E0B" fill-opacity="0.1" stroke="#F59E0B" stroke-opacity="0.25" stroke-width="1"/>
-      <text x="57.5" y="18" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#F59E0B">Design Systems</text>
-    </g>
-    <!-- Accessibility -->
-    <g transform="translate(-148, 0)">
-      <rect x="0" y="0" width="100" height="28" rx="14" fill="#22C55E" fill-opacity="0.1" stroke="#22C55E" stroke-opacity="0.25" stroke-width="1"/>
-      <text x="50" y="18" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#22C55E">Accessibility</text>
-    </g>
-    <!-- Dark Mode -->
-    <g transform="translate(-30, 0)">
-      <rect x="0" y="0" width="90" height="28" rx="14" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="1"/>
-      <text x="45" y="18" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#8B5CF6">Dark Mode</text>
-    </g>
-    <!-- Typography -->
-    <g transform="translate(78, 0)">
-      <rect x="0" y="0" width="93" height="28" rx="14" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="1"/>
-      <text x="46.5" y="18" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#3B82F6">Typography</text>
-    </g>
-    <!-- Components -->
-    <g transform="translate(189, 0)">
-      <rect x="0" y="0" width="98" height="28" rx="14" fill="#EF4444" fill-opacity="0.1" stroke="#EF4444" stroke-opacity="0.25" stroke-width="1"/>
-      <text x="49" y="18" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#EF4444">Components</text>
-    </g>
+  <!-- Bottom stats row -->
+  <line x1="80" y1="305" x2="700" y2="305" stroke="rgba(26,25,22,0.08)" stroke-width="1"/>
+
+  <g transform="translate(80, 322)">
+    <text font-family="'DM Sans', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="0.8" text-transform="uppercase" fill="rgba(26,25,22,0.25)">COMMANDS</text>
+    <text x="82" font-family="'DM Mono', ui-monospace, monospace" font-size="14" font-weight="600" fill="#1A1916">9</text>
   </g>
 
-  <!-- Bottom accent line -->
-  <rect x="400" y="397" width="400" height="3" rx="1.5" fill="url(#accent)" opacity="0.6"/>
+  <g transform="translate(200, 322)">
+    <text font-family="'DM Sans', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="0.8" fill="rgba(26,25,22,0.25)">AGENTS</text>
+    <text x="60" font-family="'DM Mono', ui-monospace, monospace" font-size="14" font-weight="600" fill="#1A1916">8</text>
+  </g>
+
+  <g transform="translate(310, 322)">
+    <text font-family="'DM Sans', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="0.8" fill="rgba(26,25,22,0.25)">KNOWLEDGE BASE</text>
+    <text x="120" font-family="'DM Mono', ui-monospace, monospace" font-size="14" font-weight="600" fill="#1A1916">6 guides</text>
+  </g>
+
+  <!-- Right side: mini phone mockup -->
+  <g transform="translate(820, 48)">
+    <!-- Phone frame -->
+    <rect width="280" height="280" rx="28" fill="#FFFFFF" stroke="#E5E1DA" stroke-width="1"/>
+
+    <!-- Status bar area -->
+    <rect x="16" y="16" width="248" height="28" rx="8" fill="#F8F7F5"/>
+    <text x="32" y="35" font-family="'DM Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#1A1916" letter-spacing="-0.3">App Name</text>
+    <rect x="200" y="25" width="48" height="10" rx="5" fill="#E5E1DA"/>
+
+    <!-- Hero stat card -->
+    <rect x="16" y="54" width="248" height="72" rx="12" fill="#FFFFFF" stroke="#E5E1DA" stroke-width="1"/>
+    <rect x="16" y="54" width="4" height="72" rx="2" fill="#2C5F2E"/>
+    <text x="32" y="73" font-family="'DM Sans', system-ui, sans-serif" font-size="8" font-weight="700" letter-spacing="0.8" fill="rgba(26,25,22,0.25)">TOTAL REVENUE</text>
+    <text x="32" y="100" font-family="'DM Sans', system-ui, sans-serif" font-size="26" font-weight="900" fill="#1A1916" letter-spacing="-1">$12,450</text>
+    <text x="32" y="116" font-family="'DM Sans', system-ui, sans-serif" font-size="9" font-weight="600" fill="#2C5F2E">+18% this month</text>
+
+    <!-- Mini stat cards row -->
+    <rect x="16" y="136" width="118" height="52" rx="8" fill="#FFFFFF" stroke="#E5E1DA" stroke-width="1"/>
+    <text x="28" y="153" font-family="'DM Sans', system-ui, sans-serif" font-size="7" font-weight="700" letter-spacing="0.5" fill="rgba(26,25,22,0.25)">ORDERS</text>
+    <text x="28" y="175" font-family="'DM Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#1A1916" letter-spacing="-0.5">247</text>
+
+    <rect x="146" y="136" width="118" height="52" rx="8" fill="#FFFFFF" stroke="#E5E1DA" stroke-width="1"/>
+    <text x="158" y="153" font-family="'DM Sans', system-ui, sans-serif" font-size="7" font-weight="700" letter-spacing="0.5" fill="rgba(26,25,22,0.25)">MARGIN</text>
+    <text x="158" y="175" font-family="'DM Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#2C5F2E" letter-spacing="-0.5">64%</text>
+
+    <!-- List items -->
+    <rect x="16" y="198" width="248" height="52" rx="8" fill="#FFFFFF" stroke="#E5E1DA" stroke-width="1"/>
+    <rect x="28" y="210" width="28" height="28" rx="6" fill="#F0EDE8"/>
+    <rect x="66" y="214" width="80" height="8" rx="4" fill="#E5E1DA"/>
+    <rect x="66" y="228" width="52" height="6" rx="3" fill="#F0EDE8"/>
+    <rect x="208" y="218" width="40" height="16" rx="8" fill="rgba(44,95,46,0.08)" stroke="rgba(44,95,46,0.20)" stroke-width="0.5"/>
+    <text x="228" y="230" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="8" font-weight="600" fill="#2C5F2E">Paid</text>
+  </g>
+
+  <!-- Bottom border -->
+  <rect x="0" y="357" width="1200" height="3" fill="#E5E1DA"/>
 </svg>
